@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title>MonMatcha Cafe'</title>
+        <link rel="stylesheet" href="contact.css">
+        <script src="https://kit.fontawesome.com/839c1705e8.js" crossorigin="anonymous"></script>
+ 
+        <body>
+        <div style="text-align: center; background-color: #003300; color: #ffffff;">
+            <centre>
+                <div style="height: 90px" class='heading'>
+                   <br><h1>MonMatcha Cafe'</h1>
+                </div>
+            </centre>
+
+    </head>
+
+    <body>
+
+    <!--Menu Section-->
+
+      <input type="checkbox" id="check">
+      <label for="check">
+          <i class="fas fa-bars" id="btn"></i>
+          <i class="fas fa-times" id="cancel"></i>
+      </label>
+        <div class="sidebar">
+            <header><h4>MonMatcha Cafe'</h4></header>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i>HOME</a></li>
+                <li><a href="about.html"><i class="fa fa-coffee"></i>ABOUT US</a></li>
+                <li><a href="menu.html"><i class="fa fa-cutlery"></i>MENU</a></li>
+                <li><a href="contact.html"><i class="fa fa-mobile"></i>CONTACT</a></li>
+            </ul>
+        </div>
+
+</body>
+
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+        <h2 class="container"> <span>Contact</span> Us </h2>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0769274031077!2d101.58754041408949!3d3.074126954468162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c5f7c4a2a05%3A0xfb99a9164f7f190d!2s55%2C%20Jalan%20SS%2015%2F8a%2C%20Ss%2015%2C%2047500%20Subang%20Jaya%2C%20Selangor!5e0!3m2!1sen!2smy!4v1643417529752!5m2!1sen!2smy" allowfullscreen="" loading="lazy"></iframe>
+            <form action="">
+                <h3>Get in touch with us</h3>
+                <P>Contact For Any Query</P>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" style= "color:black" placeholder="Your Name" >
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="Your Email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="Phone Number">
+                </div>
+                <div class="control-group">
+                  <textarea class="form-control" id="message" placeholder="Type Your Message Here" required="required" data-validation-required-message="Please enter your message" aria-invalid="false" style="height: 150px; padding:8px 15px; width: 80%; "></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div>
+                  <button class="btn custom-btn" type="reset" id="sendMessageButton">Clear</button>
+                </div>
+                <div>
+                  <button class="btn custom-btn" type="submit" id="sendMessageButton">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <style>
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: #003300;
+          color: white;
+          text-align: center;
+        }
+        </style>
+        
+        <div class="footer">
+          <p>MonMatcha Cafe'
+          <br>Copyright 2022</p>
+        </div>
+</html>    
